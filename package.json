@@ -1,0 +1,29 @@
+{
+  "name": "graphql-apollo",
+  "description": "",
+  "version": "0.0.8",
+  "dependencies": {
+    "react-dom": "16.0.0",
+    "react-apollo": "latest",
+    "react": "16.0.0",
+    "graphql-tag": "latest",
+    "graphql": "latest",
+    "apollo-link-http": "latest",
+    "apollo-client": "latest",
+    "apollo-cache-inmemory": "1.1.5",
+    "@types/react-dom": "15.5.4",
+    "@types/react": "16.0.7",
+    "@types/graphql": "0.12.1",
+    "@types/jest": "^20.0.8",
+    "@types/node": "^8.0.28"
+  },
+  "devDependencies": {
+    "react-scripts-ts": "2.8.0"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
+  }
+}
